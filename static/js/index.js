@@ -16,7 +16,7 @@ const updates = [
     title: "We're going to UIST 2023!",
     body: `Check out the pre-print collection here:`,
     link: "https://dbuschek.medium.com/uist23-preprint-collection-18a005356aa5",
-    date: "09-1-2023",
+    date: "09-01-2023",
   },
 ];
 
