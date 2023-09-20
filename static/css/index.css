@@ -141,3 +141,11 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.logos {
+  display: flex;
+  direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px 20px;
+}
