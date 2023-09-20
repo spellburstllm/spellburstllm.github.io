@@ -7,10 +7,16 @@ const updates = [
     date: "09-19-2023",
   },
   {
-    title: "Stanford HAI published an article",
-    body: `Read the article here:`,
+    title: "Stanford HAI article",
+    body: `The Stanford Human-AI Institute recently interviewed Hari, our PI, about Spellburst. Read the article here:`,
     link: "https://hai.stanford.edu/news/spellburst-large-language-model-powered-interactive-canvas-generative-artists",
     date: "09-13-2023",
+  },
+  {
+    title: "We're going to UIST 2023!",
+    body: `Check out the pre-print collection here:`,
+    link: "https://dbuschek.medium.com/uist23-preprint-collection-18a005356aa5",
+    date: "09-1-2023",
   },
 ];
 

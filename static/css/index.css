@@ -149,3 +149,9 @@ body {
   align-items: center;
   gap: 20px 20px;
 }
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
