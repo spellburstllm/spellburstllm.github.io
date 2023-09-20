@@ -35,48 +35,6 @@
 </head>
 
 <body>
-
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-        <!-- <a class="navbar-item" href="https://hai.stanford.edu">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a> -->
-        <!-- 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div> -->
-
-      </div>
-  </nav>
-
-
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
@@ -151,7 +109,7 @@
                 </span>
                 <!-- Code Link. -->
                 <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -159,9 +117,7 @@
                   <span>Code</span>
                   </a>
               </span> -->
-
               </div>
-
             </div>
           </div>
         </div>
@@ -172,10 +128,6 @@
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body mb-6">
-        <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video> -->
         <img src="./static/images/cover.jpg" alt="Spellburst teaser image." />
         <h2 class="subtitle has-text-centered">
           <span class="dnerf">Spellburst</span> is a creative coding environment designed for exploration
@@ -257,7 +209,6 @@
           </div>
         </div>
         <!--/ Modify. -->
-
         <!-- Parameterize. -->
         <div class="column">
           <div class="content">
@@ -286,7 +237,7 @@
           </div>
         </div>
         <!--/ Merge. -->
-        <!-- Merge. -->
+        <!-- Canvas. -->
         <div class="column">
           <div class="content">
             <p>
@@ -297,35 +248,9 @@
             <h2 class="title is-5">Visualize session in interactive canvas</h2>
           </div>
         </div>
-        <!--/ Merge. -->
+        <!--/ Canvas. -->
       </div>
 
-      <!-- Concurrent Work. -->
-      <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-      <!--/ Concurrent Work. -->
     </div>
   </section>
 
@@ -336,14 +261,12 @@
           <div class="column is-four-fifths">
             <h2 class="title is-3">Updates</h2>
             <div class="content has-text-justified" id="cardsContainer">
-
-
+              <!-- Note: updates are created in index.js -->
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
     </div>
   </section>
 
@@ -351,7 +274,7 @@
 
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
+      <h2 class="title has-text-centered">BibTeX</h2>
       <pre><code>@article{angert2023spellburst,
   title={Spellburst: A Node-based Interface for Exploratory Creative Coding with Natural Language Prompts},
   author={Angert, Tyler and Suzara, Miroslav Ivan and Han, Jenny and Pondoc, Christopher Lawrence and Subramonyam, Hariharan},
@@ -362,9 +285,9 @@
   </section>
 
 
-  <section class="section" id="Collaborators and Acknowledgements">
+  <section class="section mb-6" id="Collaborators and Acknowledgements">
     <div class="container is-max-desktop content">
-      <h2 class="title">Research Collaborators</h2>
+      <h2 class="title has-text-centered">Research Collaborators</h2>
       <div class="logos">
         <image src="./static/images/replit.png" alt="Replit logo" width="200px" />
         <image src="./static/images/gse.png" alt="Stanford Graduate School of Education logo" width="200px" />
@@ -386,7 +309,7 @@
                 Commons Attribution-ShareAlike 4.0 International License</a>.
             </p>
             <p>
-              We would like to reiterate our thanks to those mentioned in the Acknowledgements section of the paper. In
+              We would like to thank those mentioned in the Acknowledgements section of our paper. In
               addition, we extend our gratitude to: the <a href="https://p5js.org/">p5js and Processing community</a>
               for
               their
